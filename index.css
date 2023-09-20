@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(247, 245, 245);
 }
 
@@ -19,11 +19,11 @@ body{
     margin-top: 10em;
     margin-left: 8em;
     margin-right: 8em;
-    font-size:medium;
+    font-size: medium;
     line-height: 1.5em;
 }
 
-.flex-row {
+.flex {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -31,24 +31,63 @@ body{
     margin-top: 10em;
 }
 
-.ide-on-line{
+.ide-on-line {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 
-.ides{
-width: 9em;
-height: auto;
-margin-bottom: 10em;
+.ides {
+    width: 9em;
+    height: auto;
+    margin-bottom: 10em;
 }
 
-.temporal{
+.temporal {
     width: 3em;
     height: auto;
 }
 
-.art{
+.art {
     margin: 2%;
+}
+
+
+
+
+
+@media (max-width: 425px) {
+
+    .header {
+text-align: center;
+
+    }
+
+    .inicial {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .ide-on-line {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ides {
+        height: auto;
+        margin: 2em;
+    }
+
+    .img{
+        margin-left: 0%;
+    }
+
 }
