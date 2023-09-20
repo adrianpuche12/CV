@@ -54,14 +54,10 @@ body {
 }
 
 
-
-
-
 @media (max-width: 425px) {
 
     .header {
-text-align: center;
-
+        text-align: center;
     }
 
     .inicial {
@@ -86,8 +82,9 @@ text-align: center;
         margin: 2em;
     }
 
-    .img{
+    .img {
         margin-left: 0%;
     }
 
+    
 }
