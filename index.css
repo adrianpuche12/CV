@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(247, 245, 245);
+}
+
+.header {
+    width: 100%;
+    height: 11em;
+    background-color: rgb(198, 241, 201);
+    margin: 0%;
+}
+
+.img {
+    width: 16em;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.inicial {
+    margin-top: 10em;
+    margin-left: 8em;
+    margin-right: 8em;
+    font-size:medium;
+    line-height: 1.5em;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10em;
+    margin-top: 10em;
+}
+
+.ide-on-line{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+
+.ides{
+width: 9em;
+height: auto;
+margin-bottom: 10em;
+}
+
+.temporal{
+    width: 3em;
+    height: auto;
+}
+
+.art{
+    margin: 2%;
+}
